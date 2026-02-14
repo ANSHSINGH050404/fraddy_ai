@@ -1,0 +1,20 @@
+{
+  "name": "fraddy_ai",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@google/genai": "^1.41.0",
+    "active-win": "^9.0.0",
+    "better-sqlite3": "^12.6.2",
+    "robotjs": "^0.6.0",
+    "screenshot-desktop": "^1.15.3",
+    "tesseract.js": "^7.0.0"
+  }
+}
